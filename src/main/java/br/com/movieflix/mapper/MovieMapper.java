@@ -26,7 +26,7 @@ public class MovieMapper {
 
         return Movie.builder()
                 .title(request.title())
-                .description(request.title())
+                .description(request.description())
                 .releaseDate(request.releaseDate())
                 .rating(request.rating())
                 .categories(categories)
